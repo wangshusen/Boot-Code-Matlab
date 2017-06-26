@@ -16,8 +16,8 @@ AA = A' * A;
 
 % ------------------- Parameters ------------------- %
 numBoot = 20;  %%%%%%%%%%%%% can be tuned
-numRepeat = 2;  %%%%%%%%%%%%% can be tuned
-tList = ceil([0.1*d : 0.1*d: 0.9*d, d: 0.5*d: 10*d]);%%%%%%%%%%%%% real data
+numRepeat = 1000;  %%%%%%%%%%%%% can be tuned
+tList = ceil([0.1*d : 0.1*d: 0.9*d, d: 0.5*d: 10*d]);
 tMax = max(tList);
 
 % ------------------- Precompute ------------------- %
