@@ -1,4 +1,4 @@
-function experimentAA(filename, sketch)
+function experimentAAtoy(filename, sketch)
 % input
 % A: n-by-d1 matrix where n >> d
 % sketch: either 'gaussian' or 'srht' or 'sampling'
@@ -17,8 +17,7 @@ AA = A' * A;
 % ------------------- Parameters ------------------- %
 numBoot = 20;  %%%%%%%%%%%%% can be tuned
 numRepeat = 2;  %%%%%%%%%%%%% can be tuned
-%tList = [100:100:900, 1000: 500: 10000]; %%%%%%%%%%%%% synthetic data
-tList = ceil([0.1*d : 0.1*d: 0.9*d, d: 0.5*d: 20*d]);%%%%%%%%%%%%% real data
+tList = ceil([0.1*d : 0.1*d: 0.9*d, d: 0.5*d: 10*d]);%%%%%%%%%%%%% real data
 tMax = max(tList);
 
 % ------------------- Precompute ------------------- %
