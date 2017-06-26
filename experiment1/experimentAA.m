@@ -16,7 +16,7 @@ AA = A' * A;
 
 % ------------------- Parameters ------------------- %
 numBoot = 20;  %%%%%%%%%%%%% can be tuned
-numRepeat = 100;  %%%%%%%%%%%%% can be tuned
+numRepeat = 1000;  %%%%%%%%%%%%% can be tuned
 %tList = [100:100:900, 1000: 500: 10000]; %%%%%%%%%%%%% synthetic data
 tList = ceil([0.1*d : 0.1*d: 0.9*d, d: 0.5*d: 20*d]);%%%%%%%%%%%%% real data
 tMax = max(tList);
